@@ -67,7 +67,7 @@ ensure maintainability and scalability.
  -----------------------------------------------------------------------------------------
 
 # 📁 Project Structure
-
+```
 GestionStock
 ├── src
 │ └── main
@@ -90,6 +90,7 @@ GestionStock
 ├── .gitignore
 ├── .env.example
 └── README.md
+```
 
 ---
 
