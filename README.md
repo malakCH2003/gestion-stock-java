@@ -168,8 +168,8 @@ Make sure you have installed:
 
   ---
 
-  👥 Author
-  
+  👩‍💻 Author
+    
   - [@malakCH2003](https://github.com/malakCH2003)
 
 ------------------------------------------------------------------------
