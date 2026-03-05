@@ -135,10 +135,9 @@ Make sure you have installed:
    movements
    
  ### 🔧 Configuration
- 
-    To avoid exposing credentials, database settings are loaded from environment variables.
-    Create a .env file based on .env.example.
-    Example configuration:
+ To avoid exposing credentials, database settings are loaded from environment variables.
+ Create a .env file based on .env.example.
+ Example configuration:
     
      ```env
       DB_URL=jdbc:mysql://localhost:3306/stock_db
@@ -147,7 +146,7 @@ Make sure you have installed:
        ```
       
  ### ▶️ Running the Application
-     Run the main application class:
+ Run the main application class:
      
       ```bash
        Main.java
