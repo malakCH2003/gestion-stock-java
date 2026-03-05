@@ -68,25 +68,24 @@ ensure maintainability and scalability.
 
 # 📁 Project Structure
 
-GestionStock/
+GestionStock
+├── src
+│ └── main
+│ ├── java
+│ │ └── com/mycompany/gestionstock
+│ │ ├── app # Application entry and frames
+│ │ ├── dao # Data access layer
+│ │ ├── db # Database connection
+│ │ ├── model # Data models
+│ │ ├── ui # Application interface panels
+│ │ └── util # UI utilities and theme
+│ │
+│ └── resources
+│ └── images # Application images
 │
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/mycompany/gestionstock/
-│       │       ├── app/        # Application entry & frames
-│       │       ├── dao/        # Data Access Layer
-│       │       ├── db/         # Database connection
-│       │       ├── model/      # Data models
-│       │       ├── ui/         # Application interface
-│       │       └── util/       # UI utilities & theme
-│       │
-│       └── resources/
-│           └── images/         # Application images
-│
-├── docs/
-│   ├── schema.sql              # Database schema
-│   └── screenshots/            # UI screenshots
+├── docs
+│ ├── schema.sql # Database schema
+│ └── screenshots # Application screenshots
 │
 ├── .gitignore
 ├── .env.example
@@ -119,8 +118,6 @@ Make sure you have installed:
 - Java JDK 17+
 - MySQL Server
 - Git
-
----
 
  ### 1️⃣ Clone the repository
  ```bash
