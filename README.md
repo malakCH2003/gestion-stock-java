@@ -138,19 +138,17 @@ Make sure you have installed:
  To avoid exposing credentials, database settings are loaded from environment variables.
  Create a .env file based on .env.example.
  Example configuration:
-    
-     ```
-      DB_URL=jdbc:mysql://localhost:3306/stock_db
-      DB_USER=root
-      DB_PASS=yourpassword
-       ```
+ ```env
+ DB_URL=jdbc:mysql://localhost:3306/stock_db
+ DB_USER=root
+ DB_PASS=yourpassword
+ ```
       
  ### ▶️ Running the Application
  Run the main application class:
-     
-      ```
-       Main.java
-      ```
+ ```
+ Main.java
+ ```
 ---
 
 # 📸 Screenshots
